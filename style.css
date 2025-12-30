@@ -1,0 +1,171 @@
+/* General Body */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 30px;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+    color: #1a1a1a;
+    font-weight: bold;
+}
+
+/* Navigation Links */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #1a1a1a;
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+nav ul li a:hover,
+.active {
+    background: #1e88e5;   /* Blue accent */
+    color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+    background: #f5f7fa;
+    color: #1a1a1a;
+    padding: 70px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Content Sections */
+.content {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+/* Images */
+.content img {
+    max-width: 900px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Video */
+iframe {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Styling */
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #ffffff;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #dddddd;
+}
+
+th {
+    background-color: #1e88e5;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6fc;
+}
+
+/* Form Styling */
+form {
+    width: 340px;
+    margin: auto;
+    text-align: left;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+}
+
+label {
+    display: block;
+    margin-top: 14px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #1e88e5;
+}
+
+/* Button */
+button {
+    margin-top: 22px;
+    width: 100%;
+    padding: 12px;
+    background: #1e88e5;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #1565c0;
+}
+
+/* Map */
+.map-container iframe {
+    width: 100%;
+    height: 300px;
+    border-radius: 8px;
+    border: 1px solid #dddddd;
+}
+
+/* Footer */
+footer {
+    background: #f5f7fa;
+    color: #1a1a1a;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer a {
+    color: #1e88e5;
+    text-decoration: none;
+}
